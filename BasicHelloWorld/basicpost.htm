@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" data-app-id="YOURCLIENTIDHERE" src="https://assets.yammer.com/platform/yam.js"></script>
+    <span id="yammer-login"></span>
+    <input type="text" id='inputTextBox'/>
+    <input type="button" onclick="post()" value="post" />
+    <script>
+
+        login();
+
+        function login()
+        {
+            yam.connect.loginButton('#yammer-login', handleResponse);
+        }
+
+        function handleResponse(resp)
+        {
+            if (resp.authResponse)
+            {
+                document.getElementById('yammer-login').innerHTML = 'Welcome to Yammer!';
+            }
+        }
+
+        function post()
+        {
+            var ro = [];
+
+            ro.data = "{ \"body\": \"" + document.getElementById('inputTextBox').value + "\" }";
+            ro.method = 'POST';
+            ro.contentType = 'application/json';
+            ro.url = "https://www.yammer.com/api/v1/messages";
+            ro.successCallback = messageSuccess;
+            yam.request(ro);
+        }
+
+        function messageSuccess()
+        {
+            alert("Posted Content!");
+        }
+    </script>
+</body>
+</html>
+

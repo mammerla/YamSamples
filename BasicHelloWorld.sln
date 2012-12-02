@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicHelloWorld", "BasicHelloWorld\BasicHelloWorld.csproj", "{CEDA739E-31EE-4693-8B73-5760F5C17BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YammerIntegration", "..\YammerIntegration\YammerIntegration.csproj", "{59E378D7-47C4-4AE7-99A6-0B2B317746E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerIntegration", "..\ServerIntegration\ServerIntegration.csproj", "{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDA739E-31EE-4693-8B73-5760F5C17BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDA739E-31EE-4693-8B73-5760F5C17BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDA739E-31EE-4693-8B73-5760F5C17BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDA739E-31EE-4693-8B73-5760F5C17BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3763b9a1-a88b-46e4-b048-efa289f5070f" solutionId="3763b9a1-a88b-46e4-b048-efa289f5070f" resetWebServer="false" name="DocumentDiscussions" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="47edb79a-d20c-4386-90a1-4581fc41a55a" />
+  </features>
+</package>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDiscussions", "DocumentDiscussions\DocumentDiscussions\DocumentDiscussions.csproj", "{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDiscussionsWeb", "DocumentDiscussions\DocumentDiscussionsWeb\DocumentDiscussionsWeb.csproj", "{B830C1FD-6DE9-436D-BCF8-8C5B398CE2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerIntegration", "..\ServerIntegration\ServerIntegration.csproj", "{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YammerIntegration", "..\YammerIntegration\YammerIntegration.csproj", "{59E378D7-47C4-4AE7-99A6-0B2B317746E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointIntegration", "..\SharePointIntegration\SharePointIntegration.csproj", "{488E21F4-A12B-44D8-8379-0CEF1F772CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16B9D79-7FF7-47C0-AED8-DCDD8435E280}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B830C1FD-6DE9-436D-BCF8-8C5B398CE2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B830C1FD-6DE9-436D-BCF8-8C5B398CE2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B830C1FD-6DE9-436D-BCF8-8C5B398CE2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B830C1FD-6DE9-436D-BCF8-8C5B398CE2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87C2F55-639A-492C-BFAA-D8224BD2C3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E378D7-47C4-4AE7-99A6-0B2B317746E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488E21F4-A12B-44D8-8379-0CEF1F772CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488E21F4-A12B-44D8-8379-0CEF1F772CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488E21F4-A12B-44D8-8379-0CEF1F772CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488E21F4-A12B-44D8-8379-0CEF1F772CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

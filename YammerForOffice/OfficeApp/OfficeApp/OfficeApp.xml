@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>caeba688-7a6c-460b-96ee-bd4bf3fff82f</Id>
+  <Version>1.0</Version>
+  <ProviderName>mikeam</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Yammer in Office" />
+  <Description DefaultValue="OfficeApp Description"/>
+  <Capabilities>
+    <Capability Name="Workbook" />
+    <Capability Name="Presentation" />
+    <Capability Name="Project" />
+    <Capability Name="Document" />
+  </Capabilities>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://localhost:10298/default.aspx" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

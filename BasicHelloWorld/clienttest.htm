@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" data-app-id="YOURCLIENTIDHERE" src="https://assets.yammer.com/platform/yam.js"></script>
+    <span id="yammer-login"></span>
+    <span id="embedFeed"></span>
+    <input type="button" onclick="login()" value="login"/>
+    <input type="button" onclick="embedFeed()" value="embed feed"/>
+    <script>
+
+        embedFeed();
+
+        function login()
+        {
+            yam.connect.loginButton('#yammer-login', handleResponse);
+
+        }
+
+        function handleResponse(resp) 
+        { 
+            if (resp.authResponse) 
+            { 
+                document.getElementById('yammer-login').innerHTML = 'Welcome to Yammer!';
+            }
+        }
+
+        function embedFeed()
+        {
+            yam.connect.embedFeed(
+                    {
+                        container: '#embedFeed',
+                        network: 'contoso.com'
+                    }
+            );
+        }
+    </script>
+
+</body>
+</html>

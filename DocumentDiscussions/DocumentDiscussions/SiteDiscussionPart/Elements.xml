@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="SiteDiscussionPart" Title="Site Discussions on Yammer" Description="Site Discussions on Yammer" DefaultWidth="300" DefaultHeight="200">
+
+    <Content Type="html" Src="~remoteAppUrl/Pages/partpage.aspx?{StandardTokens}" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <Properties>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>

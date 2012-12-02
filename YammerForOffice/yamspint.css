@@ -1,0 +1,29 @@
+﻿body 
+{
+    font: 10pt Segoe UI;
+    border: solid 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.yj-component 
+{
+    font-family: 'Segoe UI' !important;
+}
+
+.yj-component DIV
+{
+    font-family : 'Segoe UI' !important;
+}
+        
+.yj-component SPAN
+{
+    font-family : 'Segoe UI' !important;
+}
+.yj-open-graph-object {
+    font-family: 'Segoe UI' !important;
+}
+
+.yj-message {
+    font-family: 'Segoe UI' !important;
+}

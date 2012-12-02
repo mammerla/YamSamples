@@ -1,0 +1,13 @@
+This is a simple set of samples around integrating with Yammer from .net.
+
+BasicHelloWorld is a simple demonstrator project that shows a few ASP.NET and web page samples.
+DocumentDiscussions is a more full SharePoint app that contains some embed parts as well as remote event receivers
+that record actions in SharePoint and push them back to SharePoint.
+YammerForOffice is a simple Office App that shows a Yammer embed.
+
+
+DEPENDENCIES:
+
+mammerla/ServerUtilities
+mammerla/SharePointIntegration
+mammerla/YammerIntegration
